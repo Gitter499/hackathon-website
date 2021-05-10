@@ -1,5 +1,11 @@
 import React from "react";
+import Logo from "./modules/Logo";
 
 export default function Navbar() {
-	return <React.Fragment></React.Fragment>;
+	return (
+		<React.Fragment>
+			<Logo />
+			
+		</React.Fragment>
+	);
 }

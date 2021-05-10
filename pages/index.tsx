@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 import React from "react";
 
-export default function Home() {
+const Home: React.FC = () => {
 	return (
 		<React.Fragment>
 			{" "}
@@ -14,3 +14,5 @@ export default function Home() {
 		</React.Fragment>
 	);
 }
+
+export default Home
